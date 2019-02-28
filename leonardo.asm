@@ -77,7 +77,7 @@ main:
 	#makes a space
 	li $a0, 32	#makes it assic
 	li $v0, 11 # syscall number for printing character
-	syscall 
+	syscall #works
 	
 	
 	
